@@ -1,51 +1,45 @@
 # 📊 Server Performance Monitoring Script
 
-## 🔗 Project Repository URL  
-https://github.com/VanshikaSalekar/server-performance-monitor
+A lightweight Bash script to monitor and analyze server performance on Linux systems. It provides real-time insights into CPU, memory, disk usage, and running processes using standard Linux commands.
 
-A lightweight Bash script to analyze basic server performance statistics on Linux systems.  
-This project helps monitor CPU, memory, disk usage, and running processes in real time using standard Linux commands.
+## 🔗 Project Page
 
----
+[https://github.com/VanshikaSalekar/server-performance-monitor](https://github.com/VanshikaSalekar/server-performance-monitor)
 
 ## 🚀 Project Overview
 
-The `server-stats.sh` script collects and displays key system performance metrics, making it useful for:
+The `server-stats.sh` script helps users quickly understand the health and performance of a server. It is useful for:
 
+- DevOps learning and practice
+- System administration tasks
 - Server monitoring
-- DevOps learning
-- System administration
-- Internship / academic projects
-- Quick health checks on Linux servers
+- Internship/academic projects
+- Quick system health checks
 
-It uses native Linux utilities like `top`, `free`, `df`, `ps`, and `uptime` to generate a summarized performance report.
+The script uses native Linux tools such as `top`, `free`, `df`, `ps`, and `uptime` to generate a summarized performance report.
 
----
+## ✨ Features
 
-## 🧩 Features
+### ✅ Core Metrics
 
-### ✅ Core Requirements
+- Total CPU usage
+- Memory usage (used, free, and percentage)
+- Disk usage (used, free, and percentage)
+- Top 5 processes by CPU usage
+- Top 5 processes by memory usage
 
-- Total CPU usage  
-- Total memory usage (used vs free with percentage)  
-- Total disk usage (used vs free with percentage)  
-- Top 5 processes by CPU usage  
-- Top 5 processes by memory usage  
+### ⭐ Additional Information
 
-### ⭐ Additional Stats (Stretch Goals)
-
-- OS version  
-- System uptime  
-- Load average  
-- Logged-in users  
-- Failed login attempts (if available)  
-
----
+- Operating system version
+- System uptime
+- Load average
+- Logged-in users
+- Failed login attempts (if available)
 
 ## 🛠️ Technologies Used
 
-- Bash Shell Scripting  
-- Linux System Commands:
+- **Bash Shell Scripting**
+- **Linux Commands:**
   - `top`
   - `free`
   - `df`
@@ -55,30 +49,33 @@ It uses native Linux utilities like `top`, `free`, `df`, `ps`, and `uptime` to g
   - `grep`
   - `awk`
 
----
-
 ## 📁 Project Structure
-
+```
 server-performance-monitor/
-│
-├── server-stats.sh # Main script file
-└── README.md # Project documentation
+├── server-stats.sh
+└── README.md
+```
 
-
----
-
-## ⚙️ Installation & Usage
+## ⚙️ How to Run the Project
 
 ### 1️⃣ Clone the Repository
-
 ```bash
 git clone https://github.com/VanshikaSalekar/server-performance-monitor.git
 cd server-performance-monitor
-2️⃣ Make the Script Executable
+```
+
+### 2️⃣ Make the Script Executable
+```bash
 chmod +x server-stats.sh
-3️⃣ Run the Script
+```
+
+### 3️⃣ Run the Script
+```bash
 ./server-stats.sh
-📌 Sample Output
+```
+
+## 📌 Sample Output
+```
 ==================== SERVER PERFORMANCE STATS ====================
 Hostname: ubuntu-server
 Date & Time: Thu Feb 5 11:20:10 IST 2026
@@ -87,65 +84,43 @@ Uptime: up 2 hours, 15 minutes
 Load Average: 0.12, 0.08, 0.05
 ==================================================================
 
-CPU Usage: 12.4 %
+CPU Usage: 12.4%
 
 Memory Usage:
-Total: 2048 MB
-Used: 850 MB
-Free: 900 MB
-Usage: 41.5 %
+  Total: 2048 MB
+  Used: 850 MB
+  Free: 900 MB
+  Usage: 41.5%
 
 Disk Usage:
-Total: 20G
-Used: 6.5G
-Free: 12G
-Usage: 35 %
+  Total: 20G
+  Used: 6.5G
+  Free: 12G
+  Usage: 35%
 
 Top 5 Processes by CPU Usage:
-PID   COMMAND   %CPU
-...
+  PID    USER     CPU%   MEM%   COMMAND
+  1234   root     5.2    2.1    /usr/bin/python3
+  5678   www      3.8    1.5    nginx
+  9012   mysql    2.1    8.3    mysqld
+  3456   user     0.9    0.5    chrome
+  7890   root     0.4    0.3    systemd
 
 Top 5 Processes by Memory Usage:
-PID   COMMAND   %MEM
-...
-🎯 Use Cases
-DevOps practice and learning
+  PID    USER     CPU%   MEM%   COMMAND
+  9012   mysql    2.1    8.3    mysqld
+  1234   root     5.2    2.1    /usr/bin/python3
+  5678   www      3.8    1.5    nginx
+  3456   user     0.9    0.5    chrome
+  7890   root     0.4    0.3    systemd
+==================================================================
+```
 
-Server health monitoring
+## 👨‍💻 Author
 
-Automation scripts
-
-Internship projects
-
-Linux administration tasks
-
-🔮 Future Enhancements
-Network usage monitoring
-
-Docker container statistics
-
-Real-time monitoring mode
-
-Alert system (CPU/memory thresholds)
-
-Log file generation
-
-Color-coded output
-
-👨‍💻 Author
-Vanshika Salekar
+**Vanshika Salekar**  
 BCA Student & Aspiring Developer
-Project built as part of DevOps learning and system monitoring practice.
 
-📜 License
+## 📜 License
+
 This project is open-source and free to use for educational purposes.
-
-
----
-
-# ✅ After pasting, run these commands:
-
-```bash
-git add README.md
-git commit -m "Added project URL and final README"
-git push
