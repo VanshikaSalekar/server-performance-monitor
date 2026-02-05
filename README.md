@@ -1,3 +1,7 @@
+## 🔗 Project Repository URL
+
+https://github.com/VanshikaSalekar/server-performance-monitor.git
+
 📊 Server Performance Monitoring Script
 
 A lightweight Bash script to analyze basic server performance statistics on Linux systems.
@@ -74,7 +78,7 @@ server-monitor/
 
 ⚙️ Installation & Usage
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/server-monitor.git
+git https://github.com/VanshikaSalekar/server-performance-monitor.git
 cd server-monitor
 
 2️⃣ Make the Script Executable
