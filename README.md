@@ -2,7 +2,9 @@
 
 A lightweight Bash script to monitor and analyze server performance on Linux systems. It provides real-time insights into CPU, memory, disk usage, and running processes using standard Linux commands.
 
-🔗 **Project Repository:** [https://github.com/VanshikaSalekar/server-performance-monitor](https://github.com/VanshikaSalekar/server-performance-monitor)
+🔗 **Project Page:** [https://roadmap.sh/projects/server-stats](https://roadmap.sh/projects/server-stats)
+
+🔗 **GitHub Repository:** [https://github.com/VanshikaSalekar/server-performance-monitor](https://github.com/VanshikaSalekar/server-performance-monitor)
 
 ## 🚀 Project Overview
 
