@@ -1,6 +1,6 @@
 ## 🔗 Project Repository URL
 
-https://github.com/VanshikaSalekar/server-performance-monitor.git
+https://github.com/VanshikaSalekar/server-performance-monitor
 
 📊 Server Performance Monitoring Script
 
